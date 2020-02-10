@@ -1,0 +1,106 @@
+ul {
+    list-style: none;
+}
+.main {
+    width: 1200px;
+    height: 460px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner {
+    width: 1200px;
+    height: 460px;
+    position: relative;
+    overflow: hidden;
+	background-image: url(../img/Main1.jpg);
+	background-size: 100% 100%;
+}
+
+.banner-slide {
+    width: 1200px;
+    height: 460px;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+.slide-active {
+    display: block;
+}
+
+.slide1 {
+	width: 1200px;
+	height: 460px;
+	position: absolute;
+	background-repeat: no-repeat;
+	display: none;
+    background-image: url(../img/Main1.jpg);
+	background-size: 100% 100%;
+	
+}
+
+.slide2 {
+	width: 1200px;
+	height: 460px;
+	position: absolute;
+	background-repeat: no-repeat;
+	display: none;
+    background-image: url(../img/Main2.jpg);
+	background-size: 100% 100%;
+}
+
+.slide3 {
+	width: 1200px;
+	height: 460px;
+	position: absolute;
+	background-repeat: no-repeat;
+	display: none;
+    background-image: url(../img/Main3.jpg);
+	background-size: 100% 100%;
+}
+.button_prev {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    left: 0px;
+    top: 50%;
+    margin-top: -40px;
+    background:url("../img/arrow.png") no-repeat center center;
+	transform: rotate(180deg);
+}
+.button_next {
+    position: absolute;
+    width: 40px;
+    height: 80px;
+    top: 50%;
+    margin-top: -40px;
+    background:url("../img/arrow.png") no-repeat center center;
+	left: auto;
+	right: 0px;
+}
+.dots {
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    text-align: right;
+}
+
+.dots span {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    background:#fff;
+    margin-left: 8px;
+    line-height: 12px;
+    background: rgba(7,17,27,0.4);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.8) inset;
+    cursor: pointer;
+}
+
+.dots span.active {
+    box-shadow: 0 0 0 2px rgba(7,17,27,0.4) inset;
+    background: #fff;
+}

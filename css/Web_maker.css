@@ -1,0 +1,502 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.body1 {
+	background-image: url(../img/timg.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.login_frame {
+	width: 400px;
+	height: 260px;
+	padding: 13px;
+	position: absolute;
+	left: 80%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	background-color: rgba(240, 255, 255, 0.5);
+	border-radius: 10px;
+	text-align: center;
+}
+.label_input {
+    font-size: 14px;
+    font-family: 宋体;
+    width: 65px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+	border-radius: 10px;
+}
+.text_field {
+    width: 278px;
+    height: 28px;
+    border-radius: 10px;
+    border: 0;
+	text-indent: 1.5rem;
+}
+.btn_login {
+    font-size: 14px;
+    font-family: 宋体;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+	float: left;
+	margin-left: 2rem;
+}
+.btn_register {
+    font-size: 14px;
+    font-family: 宋体;
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    color: white;
+    background-color: #3BD9FF;
+    border-radius: 6px;
+    border: 0;
+   
+}
+
+.register1 {
+	background-image: url(../img/_4.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.login1 {
+	color: aliceblue;
+	font-size: 2rem;
+}
+
+.super {
+	font-size: 50px;
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.homepageback {
+	background-image: url(../img/背景图.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+.fuchou4 {
+	display: inline-block;
+	padding: 0.5rem 25rem;
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+
+.fuchou4_1 {
+
+	padding: 0.5rem 25rem;
+	font-size: 1.25rem;
+	line-height: 2rem;
+
+}
+
+.fuchou4_2 {
+	padding-right: 12.5rem;
+	font-size: 1.25rem;
+	line-height: 2rem;
+
+}
+
+.fuchou4picture {
+	display: inline-block;
+	padding: 1.25rem 25rem;
+}
+
+.fuchou2 {
+	display: inline-block;
+	padding: 1.25rem 30rem 1.25rem 0rem;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+.fuchou21 {
+	display: inline-block;
+	padding: 1.25rem 30rem 1.25rem 15rem;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+.Firstbig {
+	display: inline-block;
+	padding: 1rem 30rem 1rem 18rem;
+	font-size: 1.25rem;
+}
+
+.Firstbig1 {
+	display: inline-block;
+	padding: 1rem 30rem 1rem 18rem;
+	font-size: 1rem;
+}
+
+.fuchou3 {
+	display: inline-block;
+	padding: 1.25rem 26rem 1.25rem 26rem;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+
+.fuchou33 {
+	display: inline-block;
+	padding: 0.5rem 30rem 0.5rem 25rem;
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+.container {
+	height: 70px;
+	width: 800px;
+	margin: 100px auto 0 auto;
+	z-index: initial;
+}
+.parent {
+	position: relative;
+	left: 30px;
+	font-size: 25px;
+	font-family: "黑体";
+	font-weight: 1000;
+	color: cornflowerblue;
+}
+.search {
+	width: 400px;
+	height: 40px;
+	border-radius: 18px;
+	outline: none;
+	border: 1px solid #ccc;
+	padding-left: 20px;
+	position: absolute;
+	right: 15rem;
+	top: -0.5rem;
+}
+
+.btn {
+	height: 1.5625rem;
+	width: 1.5625rem;
+	position: absolute;
+	background-image: url(../img/search2.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	top: 6px;
+	left: 520px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.Firsttitle {
+	padding-left: 25rem;
+	font-size: 1.5rem;
+}
+
+.Secondtable {
+	padding-left: 25rem;
+	border: 0rem;
+}
+
+.Secondtable_row {
+	border: 0rem;
+}
+
+.Secondtable_row2 {
+	border: 0rem;
+	padding-right: 300px;
+	padding-left: 3.125rem;
+}
+
+.AME3 {
+	font-size: 30px;
+	padding-left: 30rem;
+}
+
+.AME31 {
+	font-size: 0.85rem;
+	padding-left: 28rem;
+	padding-right: 29rem;
+	line-height: 1.5rem;
+}
+
+.AME2 {
+	font-size: 1.875rem;
+	padding-left: 20rem;
+}
+
+.AME21 {
+	font-size: 0.9rem;
+	padding-left: 25rem;
+	padding-right: 31rem;
+	line-height: 1.8rem;
+}
+
+.AME1 {
+	font-size: 2.5rem;
+	padding-left: 25rem;
+}
+
+.AME11 {
+	font-size: 1.1rem;
+	padding-left: 22rem;
+	padding-right: 32rem;
+	line-height: 1.8rem;
+}
+
+.home {
+	font-size: 1rem;
+	left: 25rem;
+	color: cadetblue;
+
+}
+
+.tourist {
+	position: absolute;
+	left: 65rem;
+	top: 15rem;
+}
+
+.homepageback1 {
+	background-image: url(../img/timg%20(1).jpg) background-repeat: no-repeat;
+	margin: 0px;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+.ul1 li a:hover {
+	background-color: #F0F8FF;
+}
+
+.ul1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: linear-gradient(#EE2C2C, #9AFF9A);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.li1 {
+	float: left;
+}
+
+.li2 {
+	font-family: "楷体";
+	display: block;
+	color: #111111;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.li3 {
+	float: left;
+	margin-left: 45rem;
+}
+
+.li4 {
+	float: left;
+	margin-left: 20rem;
+}
+
+.mark1 {
+	margin-left: 25rem;
+	border: 1px beige solid;
+	width: 60rem;
+}
+
+.test {
+	color: #6495ED;
+	font-size: 0.85rem;
+	line-height: 1.5rem;
+	padding-right: 15rem;
+	text-indent: 1.5rem;
+}
+
+.un {
+	width: 45rem;
+	position: absolute;
+	left: 25rem;
+}
+
+.btn2 {
+	height: 3rem;
+	width: 3rem;
+	position: absolute;
+	background-image: url(../img/remark.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	top: 97rem;
+	left: 60rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn4 {
+	height: 3rem;
+	width: 3rem;
+	position: absolute;
+	background-image: url(../img/remark.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	top: 97rem;
+	left: 60rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn3 {
+	height: 3rem;
+	width: 3rem;
+	position: absolute;
+	background-image: url(../img/remark.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	top: 103rem;
+	left: 60rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn5 {
+	height: 3rem;
+	width: 3rem;
+	position: absolute;
+	background-image: url(../img/remark.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	top: 102rem;
+	left: 60rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn6 {
+	height: 3rem;
+	width: 3rem;
+	position: absolute;
+	background-image: url(../img/remark.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	top: 108rem;
+	left: 60rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn7 {
+	height: 3rem;
+	width: 3rem;
+	position: absolute;
+	background-image: url(../img/remark.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	top: 102rem;
+	left: 60rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.textbox {
+	border-radius: 0.5rem;
+	text-indent: 1.375rem;
+}
+
+.Remark-icon {
+	padding-left: 25rem;
+}
+
+.Delete {
+	height: 1.5rem;
+	width: 1.5rem;
+	background-image: url(../img/delete.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin-left: 40rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+}
+
+.love {
+	height: 1.5rem;
+	width: 1.5rem;
+	background-image: url(../img/greyheart.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin-left: 40rem;
+	margin-top: 0rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+
+
+}
+
+.love2 {
+	height: 1.5rem;
+	width: 1.5rem;
+	background-image: url(../img/redheart.svg);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin-left: 40rem;
+	margin-top: 0rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.rank {
+	margin-left: 10rem;
+	
+	line-height: 2.5rem;
+}
+
+.g-img1 {
+	background-image: url(../img/jo.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center center;
+	height: 50rem;
+}
+
+.g-img2 {
+	background-image: url(../img/jo2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	height: 50rem;
+}
+
+.g-img3 {
+	background-image: url(../img/jo3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	height: 50rem;
+}

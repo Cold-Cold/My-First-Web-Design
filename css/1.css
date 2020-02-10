@@ -1,0 +1,21 @@
+.list_style{
+	list-style-type: none;
+	color: pink;
+}
+.border{
+	/* border:1px dashed pink;
+	border-bottom-width: medium; */
+	background-image: url(img/1r.jpg)) no-repeat;
+}
+.table{
+	caption-side: top;
+	border-spacing: 0.5rem;
+	
+}
+.img{
+	height: 2.5rem;
+	width: 3.125rem;
+	vertical-align: top;
+	float: left;
+}
+
